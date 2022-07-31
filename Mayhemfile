@@ -3,5 +3,4 @@ target: htmldoc
 testsuite: null
 
 cmds:
-  - cmd: /repo/htmldoc/htmldoc -f out.ps /test.html
-    filepath: /test.html
+  - cmd: /install/bin/htmldoc -f out.ps @@

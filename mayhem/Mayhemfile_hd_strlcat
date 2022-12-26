@@ -1,0 +1,7 @@
+project: htmldoc
+target: hd-strlcat
+testsuite: null
+
+cmds:
+  - cmd: /fuzz_hd_strlcat
+    libfuzzer: true
